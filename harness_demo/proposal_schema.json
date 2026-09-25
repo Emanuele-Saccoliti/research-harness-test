@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "hypotheses": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "change": {
+            "type": "string"
+          },
+          "rationale": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "change",
+          "rationale"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "hypotheses"
+  ],
+  "additionalProperties": false
+}
