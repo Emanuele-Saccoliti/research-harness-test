@@ -1,6 +1,6 @@
 # Research Harness
 
-A minimal experimental harness that uses the locally authenticated Codex CLI to run a small proposal-implementation loop.
+A minimal experimental harness that uses Codex CLI to run a small proposal-implementation loop.
 
 The script creates a tiny demo repository, defines a baseline optimizer, asks Codex to propose numerical hypotheses for improving a fixed benchmark score, lets the user choose one hypothesis, applies it to a candidate implementation, and records the resulting score.
 
