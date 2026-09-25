@@ -10,8 +10,6 @@ The script creates a tiny demo repository, defines a baseline optimizer, asks Co
 - `harness_demo/baseline.py` - baseline implementation used by the demo.
 - `harness_demo/benchmark.py` - fixed benchmark used to score candidates.
 - `harness_demo/proposal_schema.json` - JSON schema for Codex proposals.
-- `README.md` - brief project description.
-- `LICENSE` - MIT license.
 
 Generated demo files, run logs, and results are created locally when the script runs.
 
